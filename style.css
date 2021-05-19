@@ -1,6 +1,5 @@
 body {
   background-color: beige;
-  user-select: none;
 }
 
 .cell {
@@ -8,7 +7,7 @@ body {
   margin-right: 40px;
 }
 
-.cell:last-child {
+.cell:last-of-type {
   margin-right: 0;
 }
 
@@ -17,6 +16,7 @@ body {
   height: 150px;
   border: 2px solid black;
   border-radius: 0 0 40px 40px;
+  user-select: none;
 }
 
 .selected {

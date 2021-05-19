@@ -14,8 +14,7 @@ function clickCup() {
     // select cup
     selectedCup = this
     selectedCup.classList.add(`selected`)
-  }
-  else {
+  } else {
     if (selectedCup != this) {
       // get contents of selected cups
       let firstCupContents = selectedCup.firstElementChild.className
@@ -32,8 +31,7 @@ function clickCup() {
 
           // check if user solved illustration
           checkSolved()
-        }
-        else {
+        } else {
           // second cup will have mixed juice
           this.firstElementChild.className = `mixed`
         }
